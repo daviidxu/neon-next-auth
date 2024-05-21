@@ -1,6 +1,6 @@
 "use server";
 
-import db from "@/lib";
+import db from "@/lib/db";
 import { users } from "../../db/schema";
 import { ActionResult } from "./page";
 

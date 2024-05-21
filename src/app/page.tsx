@@ -15,7 +15,6 @@ export default function Home() {
   const [state, formAction] = useFormState(addUser, initialState);
 
   useEffect(() => {
-    console.log(state);
     if (state.code === 200) {
       toast(state.message, {
         position: "bottom-right",
